@@ -1,0 +1,24 @@
+{
+  "name": "fire-daydream-messages",
+  "version": "0.0.1",
+  "description": "made with love <3",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "register": "node register-commands.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "discord-api-types": "^0.38.22",
+    "discord-interactions": "^4.3.0",
+    "discord-verify": "^1.2.0",
+    "discord.js": "^14.22.1",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "fastify": "^5.5.0",
+    "fastify-raw-body": "^5.0.0",
+    "node-fetch": "^3.3.2",
+    "tweetnacl": "^1.0.3"
+  }
+}
